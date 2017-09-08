@@ -13,8 +13,9 @@ import {
         Image
 } from 'react-native';
 
-export default class RNNative extends Component {
+export default class RNNativeFirst extends Component {
     render() {
+        console.log('<<<<');
         return (
                 <View style={styles.container}>
                 <Text style={styles.welcome}>
@@ -52,4 +53,4 @@ const styles = StyleSheet.create({
                                  },
                                  });
 //注意这里的名字需要和项目名字一致
-AppRegistry.registerComponent('RNNative', () => RNNative);
+AppRegistry.registerComponent('RNNative', () => RNNativeFirst);
