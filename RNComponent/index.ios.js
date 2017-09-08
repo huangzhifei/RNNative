@@ -6,11 +6,11 @@
 
 import React, { Component } from 'react';
 import {
-    AppRegistry,  //注册
-    StyleSheet,   //样式
-    Text,         //文本组件
-    View,          //视图组件
-    Image
+    AppRegistry,    //注册
+        StyleSheet, //样式
+        Text,       //文本组件
+        View,       //视图组件
+        Image
 } from 'react-native';
 
 export default class RNNative extends Component {
