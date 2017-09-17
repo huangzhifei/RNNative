@@ -21,8 +21,8 @@
     安装完yarn后同理也要设置镜像源：
     
     yarn config set registry https://registry.npm.taobao.org --global
-    
     yarn config set disturl https://npm.taobao.org/dist --global
+    
     
   4、安装 Watchman
   
@@ -60,13 +60,6 @@ http://www.jianshu.com/p/98c8f2a970eb
 VS 插件
 
 https://www.zhihu.com/question/58165388
-
-作者：非典型理工男
-链接：https://www.zhihu.com/question/58165388/answer/187217493
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-插件列表
 
 名称	简述
 Auto Close Tag	自动闭合HTML标签
