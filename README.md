@@ -7,30 +7,45 @@
  2、brew install node
  
     安装完node后建议设置npm镜像以加速后面的过程（或使用科学上网工具）。注意：不要使用cnpm！cnpm安装的模块路径比较奇怪，packager不能正常识别！
+    
     npm config set registry https://registry.npm.taobao.org --global
+    
     npm config set disturl https://npm.taobao.org/dist --global
     
  3、Yarn、React Native的命令行工具（react-native-cli）
+ 
     Yarn是Facebook提供的替代npm的工具，可以加速node模块的下载。React Native的命令行工具用于执行创建、初始化、更新项目、运行打包服务（packager）等任务。
+    
     npm install -g yarn react-native-cli
+    
     安装完yarn后同理也要设置镜像源：
+    
     yarn config set registry https://registry.npm.taobao.org --global
+    
     yarn config set disturl https://npm.taobao.org/dist --global
     
   4、安装 Watchman
+  
     brew install watchman
     
   5、安装Flow
+  
     brew install flow
   
   6、由于RN 0.45之后要安装第三方库boostrap，所以我们先使用0.44.3来编写用例
+  
     react-native init MyApp --version 0.44.3
+    
     注意后面的版本号必须精确到两个小数点
     
     如果是纯RN项目，运行命令
+    
     react-native init MyApp
+    
     cd MyApp
+    
     react-native run-ios
+    
     
   
 iOS + react native
