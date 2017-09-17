@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285DB2EE1F6EBDBF00002FF8 /* FlexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */; };
 		9D4D0D981F61239F00E1F840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D971F61239F00E1F840 /* main.m */; };
 		9D4D0D9B1F61239F00E1F840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D9A1F61239F00E1F840 /* AppDelegate.m */; };
 		9D4D0D9E1F61239F00E1F840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D9D1F61239F00E1F840 /* ViewController.m */; };
@@ -15,10 +16,7 @@
 		9D4D0DA61F61239F00E1F840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4D0DA41F61239F00E1F840 /* LaunchScreen.storyboard */; };
 		9D4D0DB11F6123A000E1F840 /* RNNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0DB01F6123A000E1F840 /* RNNativeTests.m */; };
 		9D4D0DBC1F6123A000E1F840 /* RNNativeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0DBB1F6123A000E1F840 /* RNNativeUITests.m */; };
-		9DA3320D1F6126DC00B7AE7D /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 9DA3320C1F6126DC00B7AE7D /* index.ios.js */; };
 		9DA332101F6128E700B7AE7D /* RNRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3320F1F6128E600B7AE7D /* RNRootViewController.m */; };
-		9DA332121F612D7900B7AE7D /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DA332111F612D7900B7AE7D /* package.json */; };
-		9DA332141F612D8000B7AE7D /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DA332131F612D8000B7AE7D /* package-lock.json */; };
 		9DA332171F6136BF00B7AE7D /* index.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DA332151F6136BF00B7AE7D /* index.ios.jsbundle */; };
 		9DA332181F6136BF00B7AE7D /* index.ios.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = 9DA332161F6136BF00B7AE7D /* index.ios.jsbundle.meta */; };
 		F8909B524870DF4DD7ED0283 /* libPods-RNNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F171EAA35F8155DC03437F7 /* libPods-RNNative.a */; };
@@ -42,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285DB2EC1F6EBDBF00002FF8 /* FlexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexViewController.h; sourceTree = "<group>"; };
+		285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexViewController.m; sourceTree = "<group>"; };
 		288E2C0D8FA2EEBDA5BB516F /* Pods-RNNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNNative/Pods-RNNative.release.xcconfig"; sourceTree = "<group>"; };
 		6F171EAA35F8155DC03437F7 /* libPods-RNNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4D0D931F61239F00E1F840 /* RNNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +60,8 @@
 		9D4D0DB71F6123A000E1F840 /* RNNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4D0DBB1F6123A000E1F840 /* RNNativeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNativeUITests.m; sourceTree = "<group>"; };
 		9D4D0DBD1F6123A000E1F840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DA3320C1F6126DC00B7AE7D /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
 		9DA3320E1F6128E600B7AE7D /* RNRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNRootViewController.h; sourceTree = "<group>"; };
 		9DA3320F1F6128E600B7AE7D /* RNRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRootViewController.m; sourceTree = "<group>"; };
-		9DA332111F612D7900B7AE7D /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
-		9DA332131F612D8000B7AE7D /* package-lock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
 		9DA332151F6136BF00B7AE7D /* index.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ios.jsbundle; sourceTree = "<group>"; };
 		9DA332161F6136BF00B7AE7D /* index.ios.jsbundle.meta */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.ios.jsbundle.meta; sourceTree = "<group>"; };
 		F11FBC3DF40972CA29C4913C /* Pods-RNNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNNative/Pods-RNNative.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,7 +113,6 @@
 		9D4D0D8A1F61239F00E1F840 = {
 			isa = PBXGroup;
 			children = (
-				9D4D0DC91F61244600E1F840 /* RNComponent */,
 				9D4D0D951F61239F00E1F840 /* RNNative */,
 				9D4D0DAF1F6123A000E1F840 /* RNNativeTests */,
 				9D4D0DBA1F6123A000E1F840 /* RNNativeUITests */,
@@ -147,6 +143,8 @@
 				9D4D0D9D1F61239F00E1F840 /* ViewController.m */,
 				9DA3320E1F6128E600B7AE7D /* RNRootViewController.h */,
 				9DA3320F1F6128E600B7AE7D /* RNRootViewController.m */,
+				285DB2EC1F6EBDBF00002FF8 /* FlexViewController.h */,
+				285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */,
 				9D4D0D9F1F61239F00E1F840 /* Main.storyboard */,
 				9D4D0DA21F61239F00E1F840 /* Assets.xcassets */,
 				9D4D0DA41F61239F00E1F840 /* LaunchScreen.storyboard */,
@@ -180,16 +178,6 @@
 				9D4D0DBD1F6123A000E1F840 /* Info.plist */,
 			);
 			path = RNNativeUITests;
-			sourceTree = "<group>";
-		};
-		9D4D0DC91F61244600E1F840 /* RNComponent */ = {
-			isa = PBXGroup;
-			children = (
-				9DA332131F612D8000B7AE7D /* package-lock.json */,
-				9DA332111F612D7900B7AE7D /* package.json */,
-				9DA3320C1F6126DC00B7AE7D /* index.ios.js */,
-			);
-			path = RNComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,14 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA3320D1F6126DC00B7AE7D /* index.ios.js in Resources */,
 				9D4D0DA61F61239F00E1F840 /* LaunchScreen.storyboard in Resources */,
 				9DA332181F6136BF00B7AE7D /* index.ios.jsbundle.meta in Resources */,
 				9D4D0DA31F61239F00E1F840 /* Assets.xcassets in Resources */,
 				9D4D0DA11F61239F00E1F840 /* Main.storyboard in Resources */,
-				9DA332121F612D7900B7AE7D /* package.json in Resources */,
 				9DA332171F6136BF00B7AE7D /* index.ios.jsbundle in Resources */,
-				9DA332141F612D8000B7AE7D /* package-lock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,13 +338,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNNative-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8D1188CC15DB335CDB19EE0 /* [CP] Copy Pods Resources */ = {
@@ -387,6 +375,7 @@
 				9DA332101F6128E700B7AE7D /* RNRootViewController.m in Sources */,
 				9D4D0D9E1F61239F00E1F840 /* ViewController.m in Sources */,
 				9D4D0D9B1F61239F00E1F840 /* AppDelegate.m in Sources */,
+				285DB2EE1F6EBDBF00002FF8 /* FlexViewController.m in Sources */,
 				9D4D0D981F61239F00E1F840 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

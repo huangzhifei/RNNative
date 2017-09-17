@@ -32,7 +32,7 @@
 #endif
 
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName:@"RNNative"
+                                                        moduleName:@"RNStyleTest"
                                                  initialProperties:nil //将native数据传送到RN中
                                                      launchOptions:nil];
 
