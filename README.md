@@ -1,5 +1,11 @@
 # RNNative
 
+
+react-native 中的flex布局属性查询
+
+  http://reactnative.cn/docs/0.48/layout-props.html
+
+
 环境安装：
 
  1、建议安装homebrew
