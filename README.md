@@ -1,6 +1,7 @@
 # RNNative
 
 环境安装：
+
  1、建议安装homebrew
  
  2、brew install node
