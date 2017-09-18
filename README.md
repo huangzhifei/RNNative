@@ -5,7 +5,10 @@ react-native 中的flex布局属性查询
 
   http://reactnative.cn/docs/0.48/layout-props.html
 
+react-native 中的flex布局简单讲解
 
+  http://www.jianshu.com/p/8333db87d86c
+  
 环境安装：
 
  1、建议安装homebrew
