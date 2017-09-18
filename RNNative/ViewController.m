@@ -9,10 +9,10 @@
 #import "ViewController.h"
 #import "RNRootViewController.h"
 #import "FlexViewController.h"
+#import "PositionViewController.h"
+#import "LayoutViewController.h"
 
 @interface ViewController ()
-
-@property (nonatomic, strong) UIButton *RNButton;
 
 @end
 
@@ -23,19 +23,25 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"RNApp";
     self.view.backgroundColor = [UIColor whiteColor];
-    self.RNButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    [self.RNButton setTitle:@"rn style demo" forState:UIControlStateNormal];
-    self.RNButton.frame = CGRectMake(65, 200, 200, 40);
-    [self.RNButton addTarget:self action:@selector(jumpRN:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:self.RNButton];
 }
 
-- (void)jumpRN:(UIButton *)sender {
+- (IBAction)styleTap:(id)sender {
     RNRootViewController *RNRootVC = [[RNRootViewController alloc] init];
     [self.navigationController pushViewController:RNRootVC animated:YES];
 }
+
 - (IBAction)flexTap:(id)sender {
     FlexViewController *vc = [[FlexViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)positionTap:(id)sender {
+    PositionViewController *vc = [[PositionViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)layoutTap:(id)sender {
+    LayoutViewController *vc = [[LayoutViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
