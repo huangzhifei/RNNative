@@ -53,6 +53,22 @@
                                     <action selector="layoutTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rir-Ug-Sby"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Z-SH-JfQ">
+                                <rect key="frame" x="120" y="392" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="rn video demo"/>
+                                <connections>
+                                    <action selector="videoTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DEf-Sm-yUp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOe-ws-ufk">
+                                <rect key="frame" x="120" y="459" width="101" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="rn photo demo"/>
+                                <connections>
+                                    <action selector="photoTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlX-jr-ONH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -60,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="631" y="105"/>
+            <point key="canvasLocation" x="-154" y="-653"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xsw-Wo-DyH">
@@ -78,7 +94,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbT-AT-9Tc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="149.59999999999999" y="-560.86956521739137"/>
+            <point key="canvasLocation" x="-468" y="-614"/>
         </scene>
     </scenes>
 </document>

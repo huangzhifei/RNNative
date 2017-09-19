@@ -11,6 +11,8 @@
 #import "FlexViewController.h"
 #import "PositionViewController.h"
 #import "LayoutViewController.h"
+#import "VideoViewController.h"
+#import "PhotoViewController.h"
 
 @interface ViewController ()
 
@@ -42,6 +44,16 @@
 
 - (IBAction)layoutTap:(id)sender {
     LayoutViewController *vc = [[LayoutViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)videoTap:(id)sender {
+    VideoViewController *vc = [[VideoViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)photoTap:(id)sender {
+    PhotoViewController *vc = [[PhotoViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
