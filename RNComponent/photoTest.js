@@ -12,7 +12,7 @@ import {
 
 import ImageCrop from './ImageCrop'
 
-const ASPECT_X="2";
+const ASPECT_X="1";
 const ASPECT_Y="1";
 
 export default class index extends Component {
