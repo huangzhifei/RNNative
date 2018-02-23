@@ -13,6 +13,7 @@
 #import "LayoutViewController.h"
 #import "VideoViewController.h"
 #import "PhotoViewController.h"
+#import "BlinkViewController.h"
 
 @interface ViewController ()
 
@@ -54,6 +55,11 @@
 
 - (IBAction)photoTap:(id)sender {
     PhotoViewController *vc = [[PhotoViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)blinkTap:(id)sender {
+    BlinkViewController *vc = [[BlinkViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

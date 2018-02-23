@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		285DB2EE1F6EBDBF00002FF8 /* FlexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */; };
+		9D43B080203FBF9B00102CDB /* BlinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D43B07F203FBF9B00102CDB /* BlinkViewController.m */; };
 		9D4D0D981F61239F00E1F840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D971F61239F00E1F840 /* main.m */; };
 		9D4D0D9B1F61239F00E1F840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D9A1F61239F00E1F840 /* AppDelegate.m */; };
 		9D4D0D9E1F61239F00E1F840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D9D1F61239F00E1F840 /* ViewController.m */; };
@@ -50,6 +51,8 @@
 		285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexViewController.m; sourceTree = "<group>"; };
 		288E2C0D8FA2EEBDA5BB516F /* Pods-RNNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNNative/Pods-RNNative.release.xcconfig"; sourceTree = "<group>"; };
 		6F171EAA35F8155DC03437F7 /* libPods-RNNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D43B07E203FBF9B00102CDB /* BlinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinkViewController.h; sourceTree = "<group>"; };
+		9D43B07F203FBF9B00102CDB /* BlinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinkViewController.m; sourceTree = "<group>"; };
 		9D4D0D931F61239F00E1F840 /* RNNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4D0D971F61239F00E1F840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D4D0D991F61239F00E1F840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,6 +131,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9D43B07D203FBF3000102CDB /* RNViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DA3320E1F6128E600B7AE7D /* RNRootViewController.h */,
+				9DA3320F1F6128E600B7AE7D /* RNRootViewController.m */,
+				285DB2EC1F6EBDBF00002FF8 /* FlexViewController.h */,
+				285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */,
+				9DA57B2D1F6F5A7A0075E359 /* PositionViewController.h */,
+				9DA57B2E1F6F5A7A0075E359 /* PositionViewController.m */,
+				9DA57B301F6F5F630075E359 /* LayoutViewController.h */,
+				9DA57B311F6F5F630075E359 /* LayoutViewController.m */,
+				9DA57B6B1F70B3290075E359 /* VideoViewController.h */,
+				9DA57B6C1F70B3290075E359 /* VideoViewController.m */,
+				9D6F25441F7127DF00398B0A /* PhotoViewController.h */,
+				9D6F25451F7127DF00398B0A /* PhotoViewController.m */,
+				9D43B07E203FBF9B00102CDB /* BlinkViewController.h */,
+				9D43B07F203FBF9B00102CDB /* BlinkViewController.m */,
+			);
+			name = RNViewControllers;
+			sourceTree = "<group>";
+		};
 		9D4D0D8A1F61239F00E1F840 = {
 			isa = PBXGroup;
 			children = (
@@ -153,32 +177,14 @@
 		9D4D0D951F61239F00E1F840 /* RNNative */ = {
 			isa = PBXGroup;
 			children = (
-				9DA332151F6136BF00B7AE7D /* index.ios.jsbundle */,
-				9DA332161F6136BF00B7AE7D /* index.ios.jsbundle.meta */,
+				9D43B07D203FBF3000102CDB /* RNViewControllers */,
 				9D6F253B1F71156300398B0A /* Crop.h */,
 				9D6F253C1F71156300398B0A /* Crop.m */,
 				9D6F25411F7121C100398B0A /* ImageCrop.h */,
 				9D6F25421F7121C100398B0A /* ImageCrop.m */,
-				9D4D0D991F61239F00E1F840 /* AppDelegate.h */,
-				9D4D0D9A1F61239F00E1F840 /* AppDelegate.m */,
 				9D4D0D9C1F61239F00E1F840 /* ViewController.h */,
 				9D4D0D9D1F61239F00E1F840 /* ViewController.m */,
-				9DA3320E1F6128E600B7AE7D /* RNRootViewController.h */,
-				9DA3320F1F6128E600B7AE7D /* RNRootViewController.m */,
-				285DB2EC1F6EBDBF00002FF8 /* FlexViewController.h */,
-				285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */,
-				9DA57B2D1F6F5A7A0075E359 /* PositionViewController.h */,
-				9DA57B2E1F6F5A7A0075E359 /* PositionViewController.m */,
-				9DA57B301F6F5F630075E359 /* LayoutViewController.h */,
-				9DA57B311F6F5F630075E359 /* LayoutViewController.m */,
-				9DA57B6B1F70B3290075E359 /* VideoViewController.h */,
-				9DA57B6C1F70B3290075E359 /* VideoViewController.m */,
-				9D6F25441F7127DF00398B0A /* PhotoViewController.h */,
-				9D6F25451F7127DF00398B0A /* PhotoViewController.m */,
 				9D4D0D9F1F61239F00E1F840 /* Main.storyboard */,
-				9D4D0DA21F61239F00E1F840 /* Assets.xcassets */,
-				9D4D0DA41F61239F00E1F840 /* LaunchScreen.storyboard */,
-				9D4D0DA71F61239F00E1F840 /* Info.plist */,
 				9D4D0D961F61239F00E1F840 /* Supporting Files */,
 			);
 			path = RNNative;
@@ -187,7 +193,14 @@
 		9D4D0D961F61239F00E1F840 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9DA332151F6136BF00B7AE7D /* index.ios.jsbundle */,
+				9DA332161F6136BF00B7AE7D /* index.ios.jsbundle.meta */,
+				9D4D0D991F61239F00E1F840 /* AppDelegate.h */,
+				9D4D0D9A1F61239F00E1F840 /* AppDelegate.m */,
 				9D4D0D971F61239F00E1F840 /* main.m */,
+				9D4D0DA41F61239F00E1F840 /* LaunchScreen.storyboard */,
+				9D4D0DA71F61239F00E1F840 /* Info.plist */,
+				9D4D0DA21F61239F00E1F840 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -405,6 +418,7 @@
 				9D6F253D1F71156300398B0A /* Crop.m in Sources */,
 				9DA57B321F6F5F630075E359 /* LayoutViewController.m in Sources */,
 				9DA332101F6128E700B7AE7D /* RNRootViewController.m in Sources */,
+				9D43B080203FBF9B00102CDB /* BlinkViewController.m in Sources */,
 				9D6F25431F7121C100398B0A /* ImageCrop.m in Sources */,
 				9D4D0D9E1F61239F00E1F840 /* ViewController.m in Sources */,
 				9D4D0D9B1F61239F00E1F840 /* AppDelegate.m in Sources */,
