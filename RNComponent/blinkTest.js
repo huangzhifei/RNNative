@@ -10,15 +10,25 @@ import Blink from './blink';
 export default class BlinkTest extends Component {
     render () {
         return (
-            <View style={{
+            <View style = {{
+                flex: 1,
                 marginTop: 74,
                 marginBottom: 14,
-                alignItems: 'center'
+                alignItems: 'center',
+                backgroundColor: 'yellow'
             }}>
-            <Blink text = 'I love to blink' />
-            <Blink text='Yes blinking is so great' />
-            <Blink text='Why did they ever take this out of HTML' />
-            <Blink text='Look at me look at me look at me' />
+                <View style={{flex: 1, backgroundColor: 'skyblue'}}> 
+                    <Blink text='Yes blinking is so great' /> 
+                </View>
+
+                <View style={{flex: 2, backgroundColor: 'powderblue'}}>
+                    <Blink text='Why did they ever take this out of HTML' />
+                </View>
+
+                <View style={{flex: 2, backgroundColor: 'steelblue'}}>
+                    <Blink text='Look at me look at me look at me' />
+                </View>
+
             </View>
         );
     }

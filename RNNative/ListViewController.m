@@ -1,23 +1,23 @@
 //
-//  BlinkViewController.m
+//  ListViewController.m
 //  RNNative
 //
-//  Created by eric on 2018/2/23.
+//  Created by eric on 2018/2/24.
 //  Copyright © 2018年 Formax. All rights reserved.
 //
 
-#import "BlinkViewController.h"
+#import "ListViewController.h"
 #import <RCTRootView.h>
 
-@interface BlinkViewController ()
+@interface ListViewController ()
 
 @end
 
-@implementation BlinkViewController
+@implementation ListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     NSURL *jsCodeLocation;
     
 #ifdef DEBUG
@@ -30,12 +30,12 @@
     //发布APP的时候用
     jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"index.ios" withExtension:@"jsbundle"];
 #endif
-    
+
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName:@"RNBlinkTest"
+                                                        moduleName:@"RNListViewTest"
                                                  initialProperties:nil //将native数据传送到RN中
                                                      launchOptions:nil];
-    
+
     rootView.frame = CGRectInset([UIScreen mainScreen].bounds, 32, 70);
     self.view.backgroundColor = [UIColor greenColor];
     //    [self.view addSubview:rootView];

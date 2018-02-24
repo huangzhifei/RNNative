@@ -14,6 +14,8 @@
 #import "VideoViewController.h"
 #import "PhotoViewController.h"
 #import "BlinkViewController.h"
+#import "PizzaTranslatorViewController.h"
+#import "ListViewController.h"
 
 @interface ViewController ()
 
@@ -60,6 +62,16 @@
 
 - (IBAction)blinkTap:(id)sender {
     BlinkViewController *vc = [[BlinkViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)textInputTap:(id)sender {
+    PizzaTranslatorViewController *vc = [[PizzaTranslatorViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)listViewTap:(id)sender {
+    ListViewController *vc = [[ListViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

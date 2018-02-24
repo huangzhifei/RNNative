@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		285DB2EE1F6EBDBF00002FF8 /* FlexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DB2ED1F6EBDBF00002FF8 /* FlexViewController.m */; };
 		9D43B080203FBF9B00102CDB /* BlinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D43B07F203FBF9B00102CDB /* BlinkViewController.m */; };
+		9D43B0AE20415AD500102CDB /* PizzaTranslatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D43B0AD20415AD500102CDB /* PizzaTranslatorViewController.m */; };
+		9D43B0B1204162E900102CDB /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D43B0B0204162E900102CDB /* ListViewController.m */; };
 		9D4D0D981F61239F00E1F840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D971F61239F00E1F840 /* main.m */; };
 		9D4D0D9B1F61239F00E1F840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D9A1F61239F00E1F840 /* AppDelegate.m */; };
 		9D4D0D9E1F61239F00E1F840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4D0D9D1F61239F00E1F840 /* ViewController.m */; };
@@ -53,6 +55,10 @@
 		6F171EAA35F8155DC03437F7 /* libPods-RNNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D43B07E203FBF9B00102CDB /* BlinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinkViewController.h; sourceTree = "<group>"; };
 		9D43B07F203FBF9B00102CDB /* BlinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlinkViewController.m; sourceTree = "<group>"; };
+		9D43B0AC20415AD500102CDB /* PizzaTranslatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaTranslatorViewController.h; sourceTree = "<group>"; };
+		9D43B0AD20415AD500102CDB /* PizzaTranslatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaTranslatorViewController.m; sourceTree = "<group>"; };
+		9D43B0AF204162E900102CDB /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		9D43B0B0204162E900102CDB /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		9D4D0D931F61239F00E1F840 /* RNNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4D0D971F61239F00E1F840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D4D0D991F61239F00E1F840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +154,10 @@
 				9D6F25451F7127DF00398B0A /* PhotoViewController.m */,
 				9D43B07E203FBF9B00102CDB /* BlinkViewController.h */,
 				9D43B07F203FBF9B00102CDB /* BlinkViewController.m */,
+				9D43B0AC20415AD500102CDB /* PizzaTranslatorViewController.h */,
+				9D43B0AD20415AD500102CDB /* PizzaTranslatorViewController.m */,
+				9D43B0AF204162E900102CDB /* ListViewController.h */,
+				9D43B0B0204162E900102CDB /* ListViewController.m */,
 			);
 			name = RNViewControllers;
 			sourceTree = "<group>";
@@ -417,6 +427,7 @@
 			files = (
 				9D6F253D1F71156300398B0A /* Crop.m in Sources */,
 				9DA57B321F6F5F630075E359 /* LayoutViewController.m in Sources */,
+				9D43B0B1204162E900102CDB /* ListViewController.m in Sources */,
 				9DA332101F6128E700B7AE7D /* RNRootViewController.m in Sources */,
 				9D43B080203FBF9B00102CDB /* BlinkViewController.m in Sources */,
 				9D6F25431F7121C100398B0A /* ImageCrop.m in Sources */,
@@ -426,6 +437,7 @@
 				9D4D0D981F61239F00E1F840 /* main.m in Sources */,
 				9DA57B6D1F70B3290075E359 /* VideoViewController.m in Sources */,
 				9D6F25461F7127DF00398B0A /* PhotoViewController.m in Sources */,
+				9D43B0AE20415AD500102CDB /* PizzaTranslatorViewController.m in Sources */,
 				9DA57B2F1F6F5A7A0075E359 /* PositionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

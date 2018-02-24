@@ -11,6 +11,8 @@ import layoutTest from './layoutTest';
 import videoTest from './video/index';
 import photoTest from './photoTest';
 import blinkTest from './blinkTest';
+import pizzaTranslatorTest from './pizzaTranslator';
+import listViewTest from './listView';
 
 AppRegistry.registerComponent('RNStyleTest', () => styleTest);
 AppRegistry.registerComponent('RNFlexTest', () => flexTest);
@@ -19,3 +21,5 @@ AppRegistry.registerComponent('RNLayoutTest', () => layoutTest);
 AppRegistry.registerComponent('RNVideoTest', () => videoTest);
 AppRegistry.registerComponent('RNPhotoTest', () => photoTest);
 AppRegistry.registerComponent('RNBlinkTest', () => blinkTest);
+AppRegistry.registerComponent('RNPizzaTranslatorTest', () => pizzaTranslatorTest);
+AppRegistry.registerComponent('RNListViewTest', () => listViewTest);

@@ -1,25 +1,25 @@
 //
-//  BlinkViewController.m
+//  PizzaTranslatorViewController.m
 //  RNNative
 //
-//  Created by eric on 2018/2/23.
+//  Created by eric on 2018/2/24.
 //  Copyright © 2018年 Formax. All rights reserved.
 //
 
-#import "BlinkViewController.h"
+#import "PizzaTranslatorViewController.h"
 #import <RCTRootView.h>
 
-@interface BlinkViewController ()
+@interface PizzaTranslatorViewController ()
 
 @end
 
-@implementation BlinkViewController
+@implementation PizzaTranslatorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     NSURL *jsCodeLocation;
-    
+
 #ifdef DEBUG
     //开发的时候用，需要打开本地服务器
     //真机调试的话，要让手机和电脑处于同一个路由下面，并且使用电脑端的ip地址
@@ -30,12 +30,12 @@
     //发布APP的时候用
     jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"index.ios" withExtension:@"jsbundle"];
 #endif
-    
+
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName:@"RNBlinkTest"
+                                                        moduleName:@"RNPizzaTranslatorTest"
                                                  initialProperties:nil //将native数据传送到RN中
                                                      launchOptions:nil];
-    
+
     rootView.frame = CGRectInset([UIScreen mainScreen].bounds, 32, 70);
     self.view.backgroundColor = [UIColor greenColor];
     //    [self.view addSubview:rootView];
