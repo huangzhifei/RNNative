@@ -16,6 +16,7 @@
 #import "BlinkViewController.h"
 #import "PizzaTranslatorViewController.h"
 #import "ListViewController.h"
+#import "FadeViewController.h"
 
 @interface ViewController ()
 
@@ -72,6 +73,11 @@
 
 - (IBAction)listViewTap:(id)sender {
     ListViewController *vc = [[ListViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)fadeViewTap:(id)sender {
+    FadeViewController *vc = [[FadeViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

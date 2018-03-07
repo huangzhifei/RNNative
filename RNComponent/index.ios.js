@@ -4,15 +4,16 @@ import {
     AppRegistry
 } from 'react-native';
 
-import styleTest from './styleTest';
-import flexTest from './flexBoxTest';
-import positionTest from './positionTest';
-import layoutTest from './layoutTest';
-import videoTest from './video/index';
-import photoTest from './photoTest';
-import blinkTest from './blinkTest';
-import pizzaTranslatorTest from './pizzaTranslator';
-import listViewTest from './listView';
+import styleTest from './iOS/styleTest';
+import flexTest from './iOS/flexBoxTest';
+import positionTest from './iOS/positionTest';
+import layoutTest from './iOS/layoutTest';
+import videoTest from './iOS/video/index';
+import photoTest from './iOS/photoTest';
+import blinkTest from './iOS/blinkTest';
+import pizzaTranslatorTest from './iOS/pizzaTranslator';
+import listViewTest from './iOS/listView';
+import fadeViewTest from './iOS/fadeViewTest'
 
 AppRegistry.registerComponent('RNStyleTest', () => styleTest);
 AppRegistry.registerComponent('RNFlexTest', () => flexTest);
@@ -23,3 +24,4 @@ AppRegistry.registerComponent('RNPhotoTest', () => photoTest);
 AppRegistry.registerComponent('RNBlinkTest', () => blinkTest);
 AppRegistry.registerComponent('RNPizzaTranslatorTest', () => pizzaTranslatorTest);
 AppRegistry.registerComponent('RNListViewTest', () => listViewTest);
+AppRegistry.registerComponent('RNFadeViewTest', () => fadeViewTest);
